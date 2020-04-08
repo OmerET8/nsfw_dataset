@@ -7,11 +7,8 @@ data_dir="$base_dir/data"
 N=2000
 
 declare -a class_names=(
-	"neutral"
-	"drawings"
-	"sexy"
-	"porn"
-	"hentai"
+	"sfw"
+	"nsfw"
 	)
 
 
