@@ -23,7 +23,7 @@ do
 		find "$raw_data_class_dir" -type f \( -name '*.jpg' -o -name '*.jpeg' \) -print0 |
 		while IFS= read -r -d '' jpg_f
 		do
-		    cp "$jpg_f" "$train_dir/$cname/$(uuidgen).jpg"
+		    mv "$jpg_f" "$train_dir/$cname/$(uuidgen).jpg"
 		done
 	fi
 done
